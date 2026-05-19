@@ -25,7 +25,7 @@
    - [Reconnaissance with Nmap](#reconnaissance-with-nmap)
    - [Password Spraying with Hydra](#password-spraying-with-hydra)
    - [Account Lockout Validation](#account-lockout-validation)
-9. [Conclusion & Lessons Learned](#conclusion--lessons-learned)
+9. [Conclusion](#conclusion)
 10. [Author](#author)
 11. [Disclaimer](#disclaimer)
 
@@ -200,24 +200,16 @@ Carlos Almendares
 Cybersecurity Capstone Project
 April 28th, 2026
 
-## Conclusion and Lessons Learned 
+## Conclusion
 This capstone project successfully demonstrated the deployment and administration of a secure enterprise network environment using virtualization, Active Directory, Group Policy, secure file sharing, and security testing.
 
 Key Achievements
-✅ Centralized Authentication – AD DS with redundant domain controllers
-✅ Automated User Management – PowerShell bulk user creation from CSV
-✅ Security Policy Enforcement – Password complexity, lockout thresholds
-✅ Least Privilege Access – NTFS + share permissions by department
-✅ Secure Web Services – IIS with SSL/TLS encryption
-✅ Security Validation – Nmap reconnaissance, Hydra password spraying
-
-Critical Lessons
-Vulnerability Tested	Result	Mitigation
-Weak passwords	Successful compromise via Hydra	Enforce complex passwords (12+ chars, complexity)
-No account lockout	N/A (not tested)	5 attempts → 15-minute lockout (implemented)
-Open SMB ports	Discoverable via Nmap	Require authentication, disable SMBv1, firewall rules
-Self-signed SSL	Browser warning	Use trusted CA certificates in production
-Null session enumeration	Restricted	SMB signing required, proper share permissions
+- Centralized Authentication – AD DS with redundant domain controllers
+- Automated User Management – PowerShell bulk user creation from CSV
+- Security Policy Enforcement – Password complexity, lockout thresholds
+- Least Privilege Access – NTFS + share permissions by department
+- Secure Web Services – IIS with SSL/TLS encryption
+- Security Validation – Nmap reconnaissance, Hydra password spraying
 
 ## Disclaimer
 ⚠️ Educational Purpose Only
