@@ -54,19 +54,22 @@ The goal was to replicate a corporate IT infrastructure while applying cybersecu
 
 ## Network Architecture
 
+### Virtual Environment Layout
+
 | Hostname     | IP Address    | Function                |
 |--------------|---------------|-------------------------|
-| CA-DC1       | 10.240.92.221 | DNS / ADDS              |
-| CA-DC2       | 10.240.92.224 | Redundancy              |
+| CA-DC1       | 10.240.92.221 | DNS / ADDS (Primary DC) |
+| CA-DC2       | 10.240.92.224 | Redundancy (Secondary DC) |
 | CA-FS1       | 10.240.92.223 | File Services           |
-| CA-APP1      | 10.240.92.222 | Application Services    |
-| CA-Client1   | 10.240.92.118 | Client Testing          |
-| KALI         | 10.240.92.28  | Security Testing        |
+| CA-APP1      | 10.240.92.222 | Application Services (IIS) |
+| CA-Client1   | 10.240.92.118 | Client Testing (Windows 11) |
+| KALI         | 10.240.92.28  | Security Testing (Kali Linux) |
 
+### Architecture Summary
 - 2 Domain Controllers for redundancy
 - 1 File Server with departmental shares
-- 1 Application Server (IIS)
-- 1 Windows 11 Client
+- 1 Application Server running IIS
+- 1 Windows 11 Client for policy testing
 - 1 Kali Linux attacker machine
 
 ---
