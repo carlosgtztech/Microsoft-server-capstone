@@ -198,20 +198,11 @@ To simulate enterprise onboarding procedures, user accounts were bulk-created us
 4. Automatically create users in designated OUs
 
 ## Example PowerShell User Creation Script
+### Installation
+1. **Download the script** – Save [`addusers.ps1`](addusers.ps1) to your computer.
+2. **(Optional) Review the script** – Open it in a text editor to understand what it does.
+3. **Place it in a convenient folder** – e.g., `C:\Scripts` or your Desktop.
 
-```powershell
-Import-Csv "C:\users.csv" | ForEach-Object {
-
-New-ADUser `
--Name $_.Name `
--GivenName $_.FirstName `
--Surname $_.LastName `
--SamAccountName $_.Username `
--UserPrincipalName "$($_.Username)@calmendares.local" `
--Path $_.OU `
--AccountPassword (ConvertTo-SecureString $_.Password -AsPlainText -Force) `
--Enabled $true
-}
 ```
 
 This process automated user onboarding and significantly reduced manual administrative effort.
