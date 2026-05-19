@@ -1,5 +1,38 @@
 # Enterprise Network Simulation: Active Directory & Security Testing
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Key Technologies Used](#key-technologies-used)
+3. [Network Architecture](#network-architecture)
+4. [Active Directory Infrastructure](#active-directory-infrastructure)
+   - [Domain Setup](#domain-setup)
+   - [Organizational Unit Creation](#organizational-unit-creation)
+   - [User Management with PowerShell](#user-management-with-powershell)
+   - [PowerShell Reporting Script](#powershell-reporting-script)
+5. [Group Policy Implementation](#group-policy-implementation)
+   - [Security Baseline GPO](#security-baseline-gpo)
+   - [Department-Specific GPOs](#department-specific-gpos)
+   - [Policy Validation](#policy-validation)
+6. [File Server and Permissions](#file-server-and-permissions)
+   - [Share Creation](#share-creation)
+   - [NTFS Permission Configuration](#ntfs-permission-configuration)
+7. [IIS Website and SSL Configuration](#iis-website-and-ssl-configuration)
+   - [IIS Installation](#iis-installation)
+   - [Website Creation](#website-creation)
+   - [SSL Certificate Setup](#ssl-certificate-setup)
+8. [Security Testing and Validation](#security-testing-and-validation)
+   - [Reconnaissance with Nmap](#reconnaissance-with-nmap)
+   - [Password Spraying with Hydra](#password-spraying-with-hydra)
+   - [Account Lockout Validation](#account-lockout-validation)
+9. [Conclusion & Lessons Learned](#conclusion--lessons-learned)
+10. [Future Improvements](#future-improvements)
+11. [Author](#author)
+12. [Repository Contents](#repository-contents)
+13. [Disclaimer](#disclaimer)
+
+---
+
 ## Project Overview
 
 This project simulates a realistic enterprise IT environment using virtualization. The infrastructure includes multiple Windows Servers, a client workstation, Active Directory Domain Services (AD DS), PowerShell automation, Group Policy enforcement, secure file sharing, and security testing with Kali Linux.
