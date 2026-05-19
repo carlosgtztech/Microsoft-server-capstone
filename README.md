@@ -118,14 +118,14 @@ calmendares.local/
 
 **Step-by-Step via PowerShell:**
 
-# Create OUs
+## Create OUs
 ```powershell
 New-ADOrganizationalUnit -Name "Accounting" -Path "DC=calmendares,DC=local"
 New-ADOrganizationalUnit -Name "HR" -Path "DC=calmendares,DC=local"
 New-ADOrganizationalUnit -Name "Developers" -Path "DC=calmendares,DC=local"
 New-ADOrganizationalUnit -Name "SysAdmin" -Path "DC=calmendares,DC=local"
 ```
-# Verify creation
+## Verify creation
 ```powershell
 Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistinguishedName
 ```
