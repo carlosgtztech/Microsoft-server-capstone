@@ -188,7 +188,7 @@ Users can only access their department’s folders, enforcing role-based access 
 
 ---
 
-## Security Testing & Validation (Kali Linux)
+## Security Testing & Validation 
 
 ### Reconnaissance (Nmap)
 TCP SYN scan revealed that firewall rules properly restricted inbound traffic to only essential services.
