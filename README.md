@@ -378,8 +378,11 @@ Security testing was conducted from the Kali Linux system to validate defensive 
 ### TCP SYN Scan
 
 ```bash
-nmap -sS 10.240.92.0/24
+nmap -sS -sV 10.240.92.0/24
 ```
+Example below:
+
+![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/blob/main/images/Screenshot-7.png?raw=true)
 
 ### Objectives
 - Discover live hosts
