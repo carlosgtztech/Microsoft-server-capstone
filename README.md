@@ -382,7 +382,7 @@ nmap -sS -sV 10.240.92.0/24
 ```
 Example below:
 
-![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/blob/main/images/Screenshot-7.png?raw=true)
+![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/blob/main/images/Screenshot-8.png?raw=true)
 
 ### Objectives
 - Discover live hosts
