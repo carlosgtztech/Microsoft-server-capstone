@@ -303,10 +303,8 @@ Validation confirmed that policies successfully applied to target users and syst
 Departmental file shares were created on `CA-FS1`.
 
 ### Example Shares
-- Accounting Share
-- HR Share
-- Developers Share
-- Marketing Share
+
+![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/blob/main/images/Screenshot%202026-05-12%20220221.png?raw=true)
 
 Shared folders allowed centralized storage and controlled collaboration.
 
