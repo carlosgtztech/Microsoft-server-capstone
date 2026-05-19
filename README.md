@@ -1,8 +1,8 @@
-# Enterprise Network Simulation: Active Directory & Security Hardening
+# Enterprise Network Simulation: Active Directory & Security Testing
 
 ## Project Overview
 
-This project simulates a realistic enterprise IT environment using virtualization. The infrastructure includes multiple Windows Servers, client workstations, Active Directory Domain Services (AD DS), PowerShell automation, Group Policy enforcement, secure file sharing, and security testing with Kali Linux.
+This project simulates a realistic enterprise IT environment using virtualization. The infrastructure includes multiple Windows Servers, a client workstation, Active Directory Domain Services (AD DS), PowerShell automation, Group Policy enforcement, secure file sharing, and security testing with Kali Linux.
 
 The goal was to replicate a corporate IT infrastructure while applying cybersecurity best practices: least privilege access, centralized authentication, redundancy, access control, and policy enforcement. Security testing validates the effectiveness of these controls and identifies vulnerabilities like weak passwords or misconfigured services.
 
