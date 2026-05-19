@@ -117,16 +117,18 @@ calmendares.local/
 4. Create sub-OUs for Users and Computers within each department (optional)
 
 **Step-by-Step via PowerShell:**
-```powershell
+
 # Create OUs
+```powershell
 New-ADOrganizationalUnit -Name "Accounting" -Path "DC=calmendares,DC=local"
 New-ADOrganizationalUnit -Name "HR" -Path "DC=calmendares,DC=local"
 New-ADOrganizationalUnit -Name "Developers" -Path "DC=calmendares,DC=local"
 New-ADOrganizationalUnit -Name "SysAdmin" -Path "DC=calmendares,DC=local"
-
+```
 # Verify creation
+```powershell
 Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistinguishedName
-
+```
 ### User Automation
 
 Users were bulk-created from a CSV file using PowerShell, simulating enterprise onboarding.
