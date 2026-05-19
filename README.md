@@ -129,7 +129,8 @@ New-ADOrganizationalUnit -Name "SysAdmin" -Path "DC=calmendares,DC=local"
 ```powershell
 Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistinguishedName
 ```
-### User Automation
+### User Management with PowerShell
+
 
 Users were bulk-created from a CSV file using PowerShell, simulating enterprise onboarding.
 
