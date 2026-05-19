@@ -70,19 +70,31 @@ The goal was to replicate a corporate IT infrastructure while applying cybersecu
 - 1 File Server with departmental shares
 - 1 Application Server running IIS
 - 1 Windows 11 Client for policy testing
-- 1 Kali Linux attacker machine
+- 1 Kali Linux testing machine
 
 ---
 
-## Active Directory Structure
+## Active Directory Infrastructure
 
-**Domain:** `calmendares.local`
+### Domain Setup
 
-**Organizational Units (OUs):**
-- Accounting
-- HR
-- Developers
-- SysAdmin
+**Domain Name:** `calmendares.local`
+
+**Step-by-Step:**
+1. Install Windows Server on CA-DC1 and CA-DC2
+2. Set static IP addresses (10.240.92.221 and 10.240.92.224)
+3. On CA-DC1, install AD DS role:
+   - Server Manager → Add Roles and Features → Active Directory Domain Services
+   - Promote server to domain controller
+   - Create new forest: `calmendares.local`
+   - Set Directory Services Restore Mode (DSRM) password
+4. On CA-DC2, install AD DS role and join existing domain:
+   - Promote to domain controller → Add domain controller to existing domain
+   - Specify `calmendares.local` as parent domain
+5. Configure DNS integration (automatic with AD DS promotion)
+6. Verify replication between DCs using `repadmin /replsum`
+
+---
 
 ### User Automation
 
