@@ -196,3 +196,20 @@ TCP SYN scan revealed that firewall rules properly restricted inbound traffic to
 ### Password Spraying Attack (Hydra)
 ```bash
 hydra -L users.txt -P passwords.txt smb://10.240.92.223
+```
+
+## Disclaimer
+⚠️ Educational Purpose Only
+
+This environment was built for educational use in a controlled virtual lab environment. The configurations, scripts, and security testing methods demonstrated here should not be applied directly to production systems without:
+
+Thorough testing in a non-production environment
+
+Adaptation to your organization's security requirements
+
+Review by qualified security professionals
+
+Compliance with applicable laws and regulations
+
+The password spraying and scanning techniques shown are for authorized testing only. Always obtain written permission before testing any system you do not own.
+
