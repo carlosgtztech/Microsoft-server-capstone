@@ -1,0 +1,22 @@
+GivenName,Surname,Phone,Department,Group_Name,OU_Path,City,Company,State
+Francis,Garcia,609-566-5262,InfoTech,InfoTech_Group,"OU=InfoTech_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Francisca,Bickford,512-624-1632,SysAdmin,SysAdmin_Group,"OU=SysAdmin_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Caren,Cooper,520-490-0490,InfoTech,InfoTech_Group,"OU=InfoTech_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Robin,Jernigan,940-399-5313,Networking,Networking_Group,"OU=Networking_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Barry,Scott,310-682-2056,Accounting,Accounting_Group,"OU=Accounting_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Erik,Johnson,801-622-0484,HR,HR_Group,"OU=HR_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Calvin,White,540-245-5499,HR,HR_Group,"OU=HR_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Thomas,Conley,731-937-3791,Accounting,Accounting_Group,"OU=Accounting_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Gladys,Cameron,989-849-4252,Developers,Developers_Group,"OU=Developers_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Luz,Taylor,503-351-7148,Developers,Developers_Group,"OU=Developers_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Veronica,Martin,307-422-1191,Developers,Developers_Group,"OU=Developers_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Adele,Smith,504-231-4236,Developers,Developers_Group,"OU=Developers_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Samantha,Primmer,216-705-1458,Marketing,Marketing_Group,"OU=Marketing_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Scott,Henderson,802-250-5557,Marketing,Marketing_Group,"OU=Marketing_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Calvin,White,617-434-3769,Manufacturing,Manufacturing_Group,"OU=Manufacturing_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Diane,Crouse,303-388-4678,Manufacturing,Manufacturing_Group,"OU=Manufacturing_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Theodore,Williams,918-781-5633,Accounting,Accounting_Group,"OU=Accounting_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Remedios,Wood,239-479-4002,Accounting,Accounting_Group,"OU=Accounting_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Betty,Donald,785-206-1549,Developers,Developers_Group,"OU=Developers_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+James,Johnson,207-374-7251,Sales,Sales_Group,"OU=Sales_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
+Laura,Rojas,207-487-5614,Executive,Executive_Group,"OU=Executive_OU,DC=calmendares,DC=local",Green Bay,Reynholm Inc.,WI
