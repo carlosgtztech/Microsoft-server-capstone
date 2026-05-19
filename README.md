@@ -192,7 +192,7 @@ To simulate enterprise onboarding procedures, user accounts were bulk-created us
 ## CSV User Import Process
 
 ### Steps
-1. Create or download `users.csv`
+1. Create or download  [`users.csv`](users.csv)
 2. Store the file in a local directory
 3. Execute PowerShell provisioning script
 4. Automatically create users in designated OUs
