@@ -195,10 +195,6 @@ TCP SYN scan revealed that firewall rules properly restricted inbound traffic to
 ```bash
 hydra -L users.txt -P passwords.txt smb://10.240.92.223
 ```
-## Auhor
-Carlos Almendares
-Cybersecurity Capstone Project
-April 28th, 2026
 
 ## Conclusion
 This capstone project successfully demonstrated the deployment and administration of a secure enterprise network environment using virtualization, Active Directory, Group Policy, secure file sharing, and security testing.
@@ -210,6 +206,11 @@ Key Achievements
 - Least Privilege Access – NTFS + share permissions by department
 - Secure Web Services – IIS with SSL/TLS encryption
 - Security Validation – Nmap reconnaissance, Hydra password spraying
+
+## Auhor
+Carlos Almendares
+Cybersecurity Capstone Project
+April 28th, 2026
 
 ## Disclaimer
 ⚠️ Educational Purpose Only
