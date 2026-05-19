@@ -1,4 +1,4 @@
-# Enterprise Network Simulation: Active Directory & Security Testing
+# Active Directory & Security Testing Career Experience Capstone
 
 ## Table of Contents
 
@@ -97,10 +97,16 @@ The goal was to replicate a corporate IT infrastructure while applying cybersecu
 ### Organizational Unit Creation
 **OU Structure**
 calmendares.local/
-├── Accounting
-├── HR
-├── Developers
-└── SysAdmin
+- Accounting_OU
+- Developers_OU
+- Executive_OU
+- HR_OU
+- InfoTech_OU
+- Manufacturing_OU
+- Marketing_OU
+- Networking_OU
+- Sales_OU
+- SysAdmin_OU
 
 **Step-by-Step via GUI:**
 1. Open Active Directory Users and Computers (ADUC)
