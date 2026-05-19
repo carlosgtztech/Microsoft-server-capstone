@@ -1,5 +1,7 @@
 # Active Directory & Security Testing Career Experience Capstone
 
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## Table of Contents
 1. [Project Overview](#project-overview)  
 2. [Key Technologies Used](#key-technologies-used)  
