@@ -96,6 +96,37 @@ The goal was to replicate a corporate IT infrastructure while applying cybersecu
 
 ---
 
+### Organizational Unit Creation
+**OU Structure**
+calmendares.local/
+├── Accounting
+├── HR
+├── Developers
+└── SysAdmin
+
+**Step-by-Step via GUI:**
+1. Open Active Directory Users and Computers (ADUC)
+2. Right-click domain → New → Organizational Unit
+3. Name each department OU as listed above
+4. Create sub-OUs for Users and Computers within each department (optional)
+
+**Step-by-Step via PowerShell:**
+1. Open Active Directory Users and Computers (ADUC)
+2. Right-click domain → New → Organizational Unit
+3. Name each department OU as listed above
+4. Create sub-OUs for Users and Computers within each department (optional)
+
+**Step-by-Step via PowerShell:**
+```powershell
+# Create OUs
+New-ADOrganizationalUnit -Name "Accounting" -Path "DC=calmendares,DC=local"
+New-ADOrganizationalUnit -Name "HR" -Path "DC=calmendares,DC=local"
+New-ADOrganizationalUnit -Name "Developers" -Path "DC=calmendares,DC=local"
+New-ADOrganizationalUnit -Name "SysAdmin" -Path "DC=calmendares,DC=local"
+
+# Verify creation
+Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistinguishedName
+
 ### User Automation
 
 Users were bulk-created from a CSV file using PowerShell, simulating enterprise onboarding.
