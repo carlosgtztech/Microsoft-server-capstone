@@ -118,7 +118,6 @@ calmendares.local/
 1. Open Active Directory Users and Computers (ADUC)
 2. Right-click domain → New → Organizational Unit
 3. Name each department OU as listed above
-4. Create sub-OUs for Users and Computers within each department (optional)
 
 **Step-by-Step via PowerShell:**
 
@@ -133,8 +132,12 @@ New-ADOrganizationalUnit -Name "SysAdmin" -Path "DC=calmendares,DC=local"
 ```powershell
 Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistinguishedName
 ```
-### User Management with PowerShell
 
+### User Management with PowerShell
+Installation
+1. **Download the CSV file** – Save [`users.csv`](users.csv) to your computer.
+2. **(Optional) Review the file** – Open it in a to understand what contains.
+3. **Place it in a convenient folder** – e.g., `C:\` or your Desktop.
 
 Users were bulk-created from a CSV file using PowerShell, simulating enterprise onboarding.
 
