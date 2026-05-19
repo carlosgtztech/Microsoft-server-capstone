@@ -198,6 +198,9 @@ To simulate enterprise onboarding procedures, user accounts were bulk-created us
 4. Automatically create users in designated OUs
 
 ## Example PowerShell User Creation Script
+
+   ![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/blob/main/images/Screenshot-7.png?raw=true).
+
 ### Installation
 1. **Download the script** – Save [`addusers.ps1`](addusers.ps1) to your computer.
 2. **(Optional) Review the script** – Open it in a text editor to understand what it does.
