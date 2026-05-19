@@ -134,13 +134,17 @@ Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistinguishedName
 ```
 
 ### User Management with PowerShell
+
+Users were bulk-created from a CSV file using PowerShell, simulating enterprise onboarding.
+
 Installation
+
 1. **Download the CSV file** – Save [`users.csv`](users.csv) to your computer.
 2. **(Optional) Review the file** – Open it in a to understand what contains.
 3. **Place it in a convenient folder** – e.g., `C:\` or your Desktop.
 
-Users were bulk-created from a CSV file using PowerShell, simulating enterprise onboarding.
-
+![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/images/Screenshot-1.png)
+  
 ### PowerShell Reporting Script
 
 Automated script exports AD objects (users, groups, OUs) into structured reports for auditing.
@@ -195,7 +199,7 @@ Users can only access their department’s folders, enforcing role-based access 
 
 ---
 
-## Security Testing & Validation 
+## Security Testing and Validation 
 
 ### Reconnaissance (Nmap)
 TCP SYN scan revealed that firewall rules properly restricted inbound traffic to only essential services.
