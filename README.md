@@ -199,7 +199,7 @@ To simulate enterprise onboarding procedures, user accounts were bulk-created us
 
 ## Example PowerShell User Creation Script
 
-   ![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/blob/main/images/Screenshot-7.png?raw=true).
+   ![image alt](https://github.com/carlosgtztech/Microsoft-server-capstone/blob/main/images/Screenshot-7.png?raw=true)
 
 ### Installation
 1. **Download the script** – Save [`addusers.ps1`](addusers.ps1) to your computer.
@@ -217,12 +217,13 @@ This process automated user onboarding and significantly reduced manual administ
 PowerShell scripts were also used to generate reports for auditing and administrative review.
 
 ## Example AD Reporting Script
-
-```powershell
-Get-ADUser -Filter * -Properties Department |
-Select-Object Name, SamAccountName, Department |
-Export-Csv "C:\Reports\ADUsers.csv" -NoTypeInformation
 ```
+
+### Installation
+1. **Download the script** – Save [`Report.ps1`](Report.ps1) to your computer.
+2. **(Optional) Review the script** – Open it in a text editor to understand what it does.
+3. **Place it in a convenient folder** – e.g., `C:\Scripts` or your Desktop.
+
 
 ### Reporting Benefits
 - Automated auditing
