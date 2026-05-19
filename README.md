@@ -468,9 +468,11 @@ This project strengthened practical skills in:
 
 # Author
 
-## Carlos Almendares
-Cybersecurity Capstone Project  
-April 28, 2026
+**Carlos Almendares**  
+<sub>Cybersecurity student & Tech Enthusiast</sub>
+
+[![GitHub](https://img.shields.io/badge/GitHub-carlosgtztech-181717?style=for-the-badge&logo=github)](https://github.com/carlosgtztech)
+[![Email](https://img.shields.io/badge/Email-carlosgutierrez.it@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:carlosgutierrez.it@gmail.com)
 
 ---
 
