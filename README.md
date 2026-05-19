@@ -71,7 +71,7 @@ This environment replicates the responsibilities of a system administrator and c
 | Kali Linux | Penetration testing and security validation |
 | Nmap | Network reconnaissance and service enumeration |
 | Hydra | Password spraying and credential testing |
-| VMware / VirtualBox | Virtualized lab environment |
+| vSphere | Virtualized lab environment |
 
 ---
 
