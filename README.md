@@ -460,7 +460,6 @@ This project strengthened practical skills in:
 - PowerShell Automation
 - Security Hardening
 - Penetration Testing
-- Enterprise Infrastructure Design
 
 ---
 
